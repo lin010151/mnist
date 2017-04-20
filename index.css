@@ -1,0 +1,9 @@
+html, body {
+	overflow: hidden;
+}
+
+#buttons {
+	padding-top: 15px;
+	z-index: 0;
+	position: absolute;
+}
