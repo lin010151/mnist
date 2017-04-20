@@ -15,7 +15,7 @@
 
 1. 检查组件和包的完整性
 2. 给 [functions](/functions) 里的 [convert.py](/functions/convert.py) 和 [predict.py](/functions/predict.py) 加上执行权限
-2. 修改 [bridg.php](/bridg.php) 和 [label.php](/label.php) 里的 `$base_dir` 值
+2. 修改 [bridg.php](/bridg.php) 和 [label.php](/label.php) 里的 ```$base_dir``` 值
 3. 如果 [functions](/functions) 里面没有 [model.h5](/functions/model.h5) 模型的话，需要先运行 [functions/train.py](/functions/train.py)
 
 ### 参考
