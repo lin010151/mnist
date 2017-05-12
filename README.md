@@ -27,7 +27,7 @@ Windows 10 + IIS 10 + PHP 7 + Python 3 成功
  * 关联好 `.py` 文件格式（推荐用 Python Launcher）
  * [PHP exec() 命令不执行？](http://stackoverflow.com/questions/39240196/php-exec-command-not-executing)
  * 相应的用户需要有完全控制 `%WINDIR%\System32\config\systemprofile` 的权限
- * 需要将 `.keras\keras.json` 放入 `%WINDIR%\System32\config\systemprofile`
+ * 需要将 `keras.json` 放入 `%WINDIR%\System32\config\systemprofile\.keras`
  * 在识别前需要将 [`keras\backend\__init__.py`](https://github.com/fchollet/keras/blob/master/keras/backend/__init__.py) 里使用 `sys.stderr.write()` 方法的语句注释掉（训练时可以不用）
 
 ### 参考
