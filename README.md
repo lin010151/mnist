@@ -9,7 +9,6 @@ Windows 10 + IIS 10 + PHP 7 + Python 3 成功
  * `keras` 用于核心内容
  * `h5py` 用于模型的保存
  * `pillow` 用于图像的处理
- * `Theano` 后端
  * `argparse` 用于支持命令行选项功能
  * [`numpy + mkl`](http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy)（Windows）
 
