@@ -2,7 +2,7 @@
 
 ### 可用环境
 
- * Windows 10 + IIS 10 + PHP 7 + Python 3
+ * Windows 10 + IIS 10 + PHP 7 + Python 3
  * Ubuntu 16.04 + Apache 2 + PHP 7 + Python 3
 
 ### 需要的包
