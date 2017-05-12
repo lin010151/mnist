@@ -1,8 +1,8 @@
 # 基于 Keras 深度学习框架的手写数字识别系统
 
-在 Ubuntu Server 16.04 + Apache 2 + PHP 7 使用 Python 3 运行成功
+Ubuntu 16.04 + Apache 2 + PHP 7 + Python 3 成功
 
-在 Windows 10 + IIS 10 + PHP 7 使用 Python 3 因无法使用 `shell_exec()` 方法 `import keras` 而失败，正解决中
+Windows 10 + IIS 10 + PHP 7 + Python 3 成功
 
 ### 需要的包
 
@@ -10,7 +10,7 @@
  * `h5py` 用于模型的保存
  * `pillow` 用于图像的处理
  * `Theano` 后端
- * `argparse`
+ * `argparse` 用于支持命令行选项功能
  * [`numpy + mkl`](http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy)（Windows）
 
 ### 使用须知
@@ -26,6 +26,9 @@
 
  * 关联好 `.py` 文件格式（推荐用 Python Launcher）
  * [PHP exec() 命令不执行？](http://stackoverflow.com/questions/39240196/php-exec-command-not-executing)
+ * 相应的用户需要有完全控制 `%WINDIR%\System32\config\systemprofile` 的权限
+ * 需要将 `.keras\keras.json` 放入 `%WINDIR%\System32\config\systemprofile`
+ * 在识别前需要将 [`keras\backend\__init__.py`](https://github.com/fchollet/keras/blob/master/keras/backend/__init__.py) 里使用 `sys.stderr.write()` 方法的语句注释掉（训练时可以不用）
 
 ### 参考
 
