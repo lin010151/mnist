@@ -19,7 +19,7 @@
  3. 修改 [bridg.php](/bridg.php) 和 [label.php](/label.php) 里的 `$base_dir` 值，必要时修改 `$convert_cmd` 和 `$predict_cmd` 的值
  4. 如果 [functions](/functions) 里面没有 [model.h5](/functions/model.h5) 模型的话，需要先运行 [functions/train.py](/functions/train.py)
 
-给使用 IIS 的建议：
+给使用 Windows + IIS 的建议：
 
  * 使用 Python Launcher
  * [PHP exec() command not executing](http://stackoverflow.com/questions/39240196/php-exec-command-not-executing)
