@@ -1,6 +1,8 @@
 # 基于 Keras 深度学习框架的手写数字识别系统
 
-该系统在 Ubuntu Server 16.04 上使用 Python 3 编译运行通过
+在 Ubuntu Server 16.04 + Apache 2 + PHP 7 使用 Python 3 运行成功
+
+在 Windows 10 + IIS 10 + PHP 7 使用 Python 3 因无法使用 `shell_exec()` 方法 `import keras` 而失败，正解决中
 
 ### 需要的包
 
