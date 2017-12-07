@@ -34,3 +34,6 @@
 
  * [Keras: Deep Learning library for Theano and TensorFlow](https://keras.io/)
  * [GitHub - wepe/MachineLearning: Basic Machine Learning and Deep Learning](https://github.com/wepe/MachineLearning)
+ 
+ ### 截图
+ ![Preview1](preview1.png) ![Preview2](preview2.png)
